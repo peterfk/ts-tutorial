@@ -37,7 +37,7 @@ class Circle implements Shape {
     return Math.PI * this.radius * this.radius;
   }
 }
-const myCircle = new Circle(2);
+const myCircle = new Circle(3);
 console.log(
   `The area of the circle with radius ${myCircle.radius} is ${myCircle.getArea()}`,
 );
